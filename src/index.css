@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&family=Rubik:wght@300;400;500;600;700&family=Urbanist:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1250px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  padding: 10px 0;
+}
